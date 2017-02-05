@@ -11,7 +11,8 @@ config :scapula_web, ScapulaWeb.Endpoint,
   secret_key_base: "YOUGLN90t+uc5QL0UM+DEWPtyQc1TkA9ivmvVoCVZFRKkp32p+P9NxXFVP5k1XV0",
   render_errors: [view: ScapulaWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: ScapulaWeb.PubSub,
-           adapter: Phoenix.PubSub.PG2]
+           adapter: Phoenix.PubSub.PG2],
+  storage: "/home/dan/uploaded"
 
 # Configures Elixir's Logger
 config :logger, :console,
