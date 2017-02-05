@@ -1,0 +1,13 @@
+<div class="jumbotron">
+  <h2>This is the upload page</h2>
+  <%= form_for @conn, :upload, [multipart: true, as: :upload], fn f -> %>
+    <div class="form-group">
+    <label>Photo</label>
+    <%= file_input f, :data, class: "form-control" %>
+  </div>
+
+  <div class="form-group">
+    <%= submit "Submit", class: "btn btn-primary" %>
+  </div>
+<% end %>
+</div>

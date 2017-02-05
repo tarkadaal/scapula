@@ -16,9 +16,11 @@ defmodule ScapulaWeb.Router do
   scope "/", ScapulaWeb do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
+    get "/", UploadController, :index
     get "/hello", HelloController, :index
     get "/hello/:messenger", HelloController, :show
+
+    post "/upload", UploadController, :upload
   end
 
   # Other scopes may use custom stacks.
