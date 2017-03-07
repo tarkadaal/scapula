@@ -1,6 +1,6 @@
 /* This file is for your main application css. */
 body {
-    background: #6b9288;
+    background: #6da28b;
     font-size: 20px;
     font-family: sans-serif;
 }
@@ -11,6 +11,19 @@ body {
     background-color: #ecdcc9;
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    color: #f0e080;
+    text-decoration: underline;
+}
+
+.welcome {
+    padding-bottom: 15px;
+}
 
 .btn-primary {
     border-color: #000000;
@@ -18,4 +31,6 @@ body {
     background-color: #f0e080;
     color: #000000;
     font-size: 30px;
+    display: block;
+    margin: 0 auto;
 }

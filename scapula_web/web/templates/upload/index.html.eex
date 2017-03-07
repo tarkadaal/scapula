@@ -1,5 +1,5 @@
-<div class="jumbotron">
-  Upload a picture or video, and it'll be shown on the projector!
+<div >
+  <img class="welcome" src="images/welcome_title.png" />
   <%= form_for @conn, :upload, [multipart: true, as: :upload], fn f -> %>
     <div class="form-group">
     <%= file_input f, :data, class: "form-control" %>

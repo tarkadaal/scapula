@@ -19,6 +19,10 @@ defmodule ScapulaWeb.UploadController do
       Path.join location, "raw/#{basename}.jpg"
   end
 
+  defp pick_path(location, basename, ".JPG") do
+      Path.join location, "raw/#{basename}.jpg"
+  end
+
   defp pick_path(location, basename, extension) do
       Path.join location, "#{basename}#{extension}"
   end

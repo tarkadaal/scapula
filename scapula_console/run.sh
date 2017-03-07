@@ -4,7 +4,7 @@
 export PS1=""
 clear
 while true; do
-	for FILENAME in $(ls -t1 *.mp4 *.MOV *.jpg 2> /dev/null)
+	for FILENAME in $(ls -t1 *.mp4 *.MOV *.jpg *.JPG 2> /dev/null)
 	do
 		if [[ $FILENAME == *.jpg ]]
 		then
