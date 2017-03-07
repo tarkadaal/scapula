@@ -26,7 +26,8 @@ defmodule ScapulaWeb.Endpoint do
     parsers: [:urlencoded, :multipart, :json],
     pass: ["*/*"],
     json_decoder: Poison,
-    length: 50000000
+    length: 500000000,
+    read_timeout: 20000
 
   plug Plug.MethodOverride
   plug Plug.Head
