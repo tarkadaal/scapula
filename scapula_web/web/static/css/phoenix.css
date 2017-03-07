@@ -27,12 +27,13 @@ form.link, form.button {
   border-bottom: 1px solid #e5e5e5;
 }
 .logo {
-  width: 519px;
-  height: 71px;
-  display: inline-block;
+  width: 250px;
+  height: 321px;
+  display: block;
+  margin: auto;
   margin-bottom: 1em;
-  background-image: url("/images/phoenix.png");
-  background-size: 519px 71px;
+  background-image: url("/images/logo.png");
+  background-size: 250px 321px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -54,8 +55,9 @@ form.link, form.button {
 
 /* Main marketing message */
 .jumbotron {
+  background-color: #718488;
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+  border: 6px solid #000000;
 }
 
 /* Supporting marketing content */
@@ -75,8 +77,5 @@ form.link, form.button {
   .header {
     margin-bottom: 30px;
   }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
+
 }

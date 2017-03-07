@@ -1,3 +1,3 @@
 <div class="jumbotron">
-  <h2>Thanks for uploading <%= @filename %>!</h2>
+  Thanks for uploading <%= @filename %>!
 </div>
