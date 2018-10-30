@@ -33,7 +33,7 @@ form.link, form.button {
   margin: auto;
   margin-bottom: 1em;
   background-image: url("/images/slogo.png");
-  background-size: 250px 321px;
+  background-size: 250px 150px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
